@@ -1,2 +1,2 @@
-# cs605-fa24
-Advanced Computer Architecture - Fall 2024
+# el2802-fa25
+Computer Architecture - Fall 2025
