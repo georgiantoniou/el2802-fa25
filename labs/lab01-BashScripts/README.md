@@ -1,5 +1,5 @@
-# Lab 1: Unix Commands and Bash Scripting
-The goal of this lab tutorial is to give you hands-on experience with unix commands and bash scripts that you will find helpful for this course.
+# Lab 1: Linux Commands and Bash Scripting
+The goal of this lab tutorial is to give you hands-on experience with Linux commands and bash scripts that you will find helpful for this course.
 
 ## Prerequisites
 
@@ -106,8 +106,8 @@ For example, to get a copy of the course's repository using an HTTPS URL:
 
 git clone [https://github.com/ucy-xilab/cs605-fa24.git](https://github.com/georgiantoniou/el2802-fa25.git) 
 
-## Exercise: Unix Commands
-In the Blackboard page of EL2802 under Week 1 there are two datasets small_dataset and big_dataset. For this set of exercises you will need to download the small_dataset. The small_dataset contains measurements(average latency, tail latency, power measurements) of a Memcached workload for a specific query arrival rate (10K queries/second) for 5 runs. Aim of this exercise is to parse the measurements using unix commands and pipes only, no intermediate files.  
+## Exercise: Linux Commands
+In the Blackboard page of EL2802 under Week 1 there are two datasets small_dataset and big_dataset. For this set of exercises you will need to download the small_dataset. The small_dataset contains measurements(average latency, tail latency, power measurements) of a Memcached workload for a specific query arrival rate (10K queries/second) for 5 runs. Aim of this exercise is to parse the measurements using Linux commands and pipes only, no intermediate files.  
 
 ### Memcached
 `Memcached` (https://memcached.org/) is a lightweight key-value store that is widely deployed as a distributed caching service to accelerate user-facing applications with stringent latency requirements by alleviating the database load. It’s characterized by high performance and scalability due to its lock-friendly implementation, offering deterministic response times in the scale of microseconds and its scale out approach (adding more servers) allowing support for high loads. At the same time, however, its simplicity prevents support of features like replication and synchronization in a multi-node-instance deployment and support of data structures in the key-value store. Lastly, the use of techniques like least recently used cache replacement policy and item expiration time allows it to achieve its caching objective.
@@ -195,7 +195,7 @@ In this exercise, you are asked to print the power consumption of package-0 for 
 
 ## Exercise: Bash Scripting
 
-For this set of exercises, you will need to download the big_dataset from the Blackboard page of EL2802. The big_dataset contains measurements(average latency, tail latency, power measurements) of a Memcached workload for several query arrival rates (10K,50K,100K,200K,300K,400K,500K queries/second) for 5 runs. Aim of this exercise is to use the solutions of the previous exercise (Exercise: Unix Commands) to create a script.
+For this set of exercises, you will need to download the big_dataset from the Blackboard page of EL2802. The big_dataset contains measurements(average latency, tail latency, power measurements) of a Memcached workload for several query arrival rates (10K,50K,100K,200K,300K,400K,500K queries/second) for 5 runs. Aim of this exercise is to use the solutions of the previous exercise (Exercise: Linux Commands) to create a script.
 
 
 ### How to Test
